@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: PTSerif;
+        src: url(/fonts/PTSerif-Regular.ttf);
+        font-family: Poppins;
+        src: url(/fonts/Poppins-Regular.ttf);
+    }
+
+    .vertical-rl {
+        writing-mode: vertical-lr;
+    }
+}
